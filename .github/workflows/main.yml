@@ -16,8 +16,8 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ aarizmohammed }}
-          password: ${{ Humeraariz1! }}
+          username: aarizmohammed
+          password: Humeraariz1!
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
@@ -25,3 +25,4 @@ jobs:
           context: .
           push: true
           tags: aarizmohammed/week10-docker-ci:latest
+
